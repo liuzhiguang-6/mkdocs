@@ -9,6 +9,8 @@ nav:
         - 软件相关: Tutorial/soft.md
         - git相关: Tutorial/git.md
         - 其他: Tutorial/other.md
+    - 文档:  
+        - 文档链接: Document/link.md
     - 关于: about.md  # 如需，可在 docs 下创建 about.md 文件
 
 # 设置侧边栏
