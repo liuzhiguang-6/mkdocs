@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://your_gitee_name.gitee.io/your_repo_name/</loc>
+         <loc>https://gitee.com/lzg_6/my-gitee-docs/</loc>
+         <lastmod>2025-09-05</lastmod>
+    </url>
+    <url>
+         <loc>https://gitee.com/lzg_6/my-gitee-docs/about/</loc>
+         <lastmod>2025-09-05</lastmod>
+    </url>
+    <url>
+         <loc>https://gitee.com/lzg_6/my-gitee-docs/Tutorial/git/</loc>
+         <lastmod>2025-09-05</lastmod>
+    </url>
+    <url>
+         <loc>https://gitee.com/lzg_6/my-gitee-docs/Tutorial/hard/</loc>
+         <lastmod>2025-09-05</lastmod>
+    </url>
+    <url>
+         <loc>https://gitee.com/lzg_6/my-gitee-docs/Tutorial/other/</loc>
+         <lastmod>2025-09-05</lastmod>
+    </url>
+    <url>
+         <loc>https://gitee.com/lzg_6/my-gitee-docs/Tutorial/soft/</loc>
          <lastmod>2025-09-05</lastmod>
     </url>
 </urlset>
