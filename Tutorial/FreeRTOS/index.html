@@ -72,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#20211030_freertos" class="md-skip">
+        <a href="#freertos" class="md-skip">
           跳转至
         </a>
       
@@ -502,38 +502,65 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#1-rtos" class="md-nav__link">
+  <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
-      1. RTOS的引入
+      资料下载
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="1. RTOS的引入">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      课程介绍
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-rtos" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. RTOS 概念及任务的引入
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. RTOS 概念及任务的引入">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#11-rtos" class="md-nav__link">
     <span class="md-ellipsis">
-      1.1 用人来类比单片机程序和RTOS
+      1.1 RTOS的概念
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="1.1 用人来类比单片机程序和RTOS">
+    <nav class="md-nav" aria-label="1.1 RTOS的概念">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#111" class="md-nav__link">
+  <a href="#111-rtos" class="md-nav__link">
     <span class="md-ellipsis">
-      1.1.1 我无法一心多用
+      1.1.1 用人来类比单片机程序和RTOS
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#122" class="md-nav__link">
+  <a href="#112" class="md-nav__link">
     <span class="md-ellipsis">
-      1.2.2 我可以一心多用
+      1.1.2 程序简单示例
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#113" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.1.3 提出问题
     </span>
   </a>
   
@@ -545,9 +572,51 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#12" class="md-nav__link">
+  <a href="#12-arm" class="md-nav__link">
     <span class="md-ellipsis">
-      1.2 程序简单示例
+      1.2 ARM 架构及汇编
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.2 ARM 架构及汇编">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#121-arm" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.2.1 ARM架构
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#122" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.2.2 几条汇编指令
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.3 函数运行的本质
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.4 什么叫任务？ 怎么保存任务？
     </span>
   </a>
   
@@ -561,54 +630,27 @@
         <li class="md-nav__item">
   <a href="#2" class="md-nav__link">
     <span class="md-ellipsis">
-      2. 任务的引入
+      2. 创建任务的函数
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="2. 任务的引入">
+    <nav class="md-nav" aria-label="2. 创建任务的函数">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#21" class="md-nav__link">
     <span class="md-ellipsis">
-      2.1 任务是什么
+      2.1 参数解析
     </span>
   </a>
   
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#22-c" class="md-nav__link">
-    <span class="md-ellipsis">
-      2.2 理解C函数的内部机制
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="2.2 理解C函数的内部机制">
+    <nav class="md-nav" aria-label="2.1 参数解析">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#221-arm" class="md-nav__link">
+  <a href="#211" class="md-nav__link">
     <span class="md-ellipsis">
-      2.2.1 ARM架构
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#222" class="md-nav__link">
-    <span class="md-ellipsis">
-      2.2.2 汇编指令
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#223" class="md-nav__link">
-    <span class="md-ellipsis">
-      2.2.3 运行流程分析
+      2.1.1 任务结构体
     </span>
   </a>
   
@@ -620,35 +662,11 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#23" class="md-nav__link">
+  <a href="#22" class="md-nav__link">
     <span class="md-ellipsis">
-      2.3 怎么保存函数的现场
+      2.2 创建任务的过程
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="2.3 怎么保存函数的现场">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#231" class="md-nav__link">
-    <span class="md-ellipsis">
-      2.3.1 要保存什么
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#232" class="md-nav__link">
-    <span class="md-ellipsis">
-      2.3.2 保存现场的几种场景
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
         
@@ -658,19 +676,19 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-freertos" class="md-nav__link">
+  <a href="#3" class="md-nav__link">
     <span class="md-ellipsis">
-      3. FreeRTOS中怎么创建任务
+      3. 任务的调度机制(核心是链表)
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="3. FreeRTOS中怎么创建任务">
+    <nav class="md-nav" aria-label="3. 任务的调度机制(核心是链表)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#31" class="md-nav__link">
     <span class="md-ellipsis">
-      3.1 所需参数
+      3.1 使用链表来管理任务
     </span>
   </a>
   
@@ -679,7 +697,26 @@
           <li class="md-nav__item">
   <a href="#32" class="md-nav__link">
     <span class="md-ellipsis">
-      3.2 参数详解
+      3.2 使用链表来理解调度机制
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.2 使用链表来理解调度机制">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#321-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.1 第1个任务是谁？
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#322" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.2 抢占
     </span>
   </a>
   
@@ -689,39 +726,209 @@
     </nav>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#4" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#33-tick" class="md-nav__link">
     <span class="md-ellipsis">
-      4. 调度机制概述
+      3.3 使用链表和Tick来理解时间片轮转
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="4. 调度机制概述">
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35-tick" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.5 任务状态的切换(链表+Tick)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.5 任务状态的切换(链表+Tick)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#351" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.5.1 任务状态切换图
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#352" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.5.2 核心：链表
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-queue" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. 消息队列(queue)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. 消息队列(queue)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#41" class="md-nav__link">
     <span class="md-ellipsis">
-      4.1 优先级与状态
+      4.1 核心是：关中断、环形缓冲区、链表
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="4.1 核心是：关中断、环形缓冲区、链表">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#411" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.1 怎么互斥访问数据
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#412" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.2 怎么传递数据
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#413" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.3 怎么休眠/唤醒
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#42" class="md-nav__link">
     <span class="md-ellipsis">
-      4.2 调度方法
+      4.2 操作示例
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.2 操作示例">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#421" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.2.1 写队列
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-semaphore" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. 信号量(semaphore)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-mutex" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. 互斥量(mutex)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-event-group" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. 事件组(event group)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. 事件组(event group)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#71" class="md-nav__link">
+    <span class="md-ellipsis">
+      7.1 核心是：关调度器、位操作、链表
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7.1 核心是：关调度器、位操作、链表">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#711" class="md-nav__link">
+    <span class="md-ellipsis">
+      7.1.1 怎么互斥访问数据
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#43" class="md-nav__link">
+  <a href="#712" class="md-nav__link">
     <span class="md-ellipsis">
-      4.3 状态切换
+      7.1.2 位操作
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#713" class="md-nav__link">
+    <span class="md-ellipsis">
+      7.1.3 链表
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#72" class="md-nav__link">
+    <span class="md-ellipsis">
+      7.2 示例代码
     </span>
   </a>
   
@@ -733,9 +940,117 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#5" class="md-nav__link">
+  <a href="#8-task-notification" class="md-nav__link">
     <span class="md-ellipsis">
-      5. 通过链表深入理解调度机制
+      8. 任务通知(Task Notification)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. 任务通知(Task Notification)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#81" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.1 核心: 通知状态、通知值
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8.1 核心: 通知状态、通知值">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#811" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.1.1 通知状态
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#812" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.1.2 通知值
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#82" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.2 代码分析
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. 定时器
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. 中断
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="10. 中断">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#101-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      10.1 两套API
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#102" class="md-nav__link">
+    <span class="md-ellipsis">
+      10.2 两类中断
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#103" class="md-nav__link">
+    <span class="md-ellipsis">
+      10.3 优先级
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11" class="md-nav__link">
+    <span class="md-ellipsis">
+      11. 临界资源访问方法
     </span>
   </a>
   
@@ -931,38 +1246,65 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#1-rtos" class="md-nav__link">
+  <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
-      1. RTOS的引入
+      资料下载
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="1. RTOS的引入">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      课程介绍
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-rtos" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. RTOS 概念及任务的引入
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. RTOS 概念及任务的引入">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#11-rtos" class="md-nav__link">
     <span class="md-ellipsis">
-      1.1 用人来类比单片机程序和RTOS
+      1.1 RTOS的概念
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="1.1 用人来类比单片机程序和RTOS">
+    <nav class="md-nav" aria-label="1.1 RTOS的概念">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#111" class="md-nav__link">
+  <a href="#111-rtos" class="md-nav__link">
     <span class="md-ellipsis">
-      1.1.1 我无法一心多用
+      1.1.1 用人来类比单片机程序和RTOS
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#122" class="md-nav__link">
+  <a href="#112" class="md-nav__link">
     <span class="md-ellipsis">
-      1.2.2 我可以一心多用
+      1.1.2 程序简单示例
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#113" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.1.3 提出问题
     </span>
   </a>
   
@@ -974,9 +1316,51 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#12" class="md-nav__link">
+  <a href="#12-arm" class="md-nav__link">
     <span class="md-ellipsis">
-      1.2 程序简单示例
+      1.2 ARM 架构及汇编
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.2 ARM 架构及汇编">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#121-arm" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.2.1 ARM架构
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#122" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.2.2 几条汇编指令
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.3 函数运行的本质
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.4 什么叫任务？ 怎么保存任务？
     </span>
   </a>
   
@@ -990,54 +1374,27 @@
         <li class="md-nav__item">
   <a href="#2" class="md-nav__link">
     <span class="md-ellipsis">
-      2. 任务的引入
+      2. 创建任务的函数
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="2. 任务的引入">
+    <nav class="md-nav" aria-label="2. 创建任务的函数">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#21" class="md-nav__link">
     <span class="md-ellipsis">
-      2.1 任务是什么
+      2.1 参数解析
     </span>
   </a>
   
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#22-c" class="md-nav__link">
-    <span class="md-ellipsis">
-      2.2 理解C函数的内部机制
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="2.2 理解C函数的内部机制">
+    <nav class="md-nav" aria-label="2.1 参数解析">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#221-arm" class="md-nav__link">
+  <a href="#211" class="md-nav__link">
     <span class="md-ellipsis">
-      2.2.1 ARM架构
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#222" class="md-nav__link">
-    <span class="md-ellipsis">
-      2.2.2 汇编指令
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#223" class="md-nav__link">
-    <span class="md-ellipsis">
-      2.2.3 运行流程分析
+      2.1.1 任务结构体
     </span>
   </a>
   
@@ -1049,35 +1406,11 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#23" class="md-nav__link">
+  <a href="#22" class="md-nav__link">
     <span class="md-ellipsis">
-      2.3 怎么保存函数的现场
+      2.2 创建任务的过程
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="2.3 怎么保存函数的现场">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#231" class="md-nav__link">
-    <span class="md-ellipsis">
-      2.3.1 要保存什么
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#232" class="md-nav__link">
-    <span class="md-ellipsis">
-      2.3.2 保存现场的几种场景
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
         
@@ -1087,19 +1420,19 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-freertos" class="md-nav__link">
+  <a href="#3" class="md-nav__link">
     <span class="md-ellipsis">
-      3. FreeRTOS中怎么创建任务
+      3. 任务的调度机制(核心是链表)
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="3. FreeRTOS中怎么创建任务">
+    <nav class="md-nav" aria-label="3. 任务的调度机制(核心是链表)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#31" class="md-nav__link">
     <span class="md-ellipsis">
-      3.1 所需参数
+      3.1 使用链表来管理任务
     </span>
   </a>
   
@@ -1108,7 +1441,26 @@
           <li class="md-nav__item">
   <a href="#32" class="md-nav__link">
     <span class="md-ellipsis">
-      3.2 参数详解
+      3.2 使用链表来理解调度机制
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.2 使用链表来理解调度机制">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#321-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.1 第1个任务是谁？
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#322" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.2 抢占
     </span>
   </a>
   
@@ -1118,39 +1470,209 @@
     </nav>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#4" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#33-tick" class="md-nav__link">
     <span class="md-ellipsis">
-      4. 调度机制概述
+      3.3 使用链表和Tick来理解时间片轮转
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="4. 调度机制概述">
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35-tick" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.5 任务状态的切换(链表+Tick)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.5 任务状态的切换(链表+Tick)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#351" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.5.1 任务状态切换图
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#352" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.5.2 核心：链表
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-queue" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. 消息队列(queue)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. 消息队列(queue)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#41" class="md-nav__link">
     <span class="md-ellipsis">
-      4.1 优先级与状态
+      4.1 核心是：关中断、环形缓冲区、链表
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="4.1 核心是：关中断、环形缓冲区、链表">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#411" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.1 怎么互斥访问数据
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#412" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.2 怎么传递数据
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#413" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.3 怎么休眠/唤醒
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#42" class="md-nav__link">
     <span class="md-ellipsis">
-      4.2 调度方法
+      4.2 操作示例
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.2 操作示例">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#421" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.2.1 写队列
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-semaphore" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. 信号量(semaphore)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-mutex" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. 互斥量(mutex)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-event-group" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. 事件组(event group)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. 事件组(event group)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#71" class="md-nav__link">
+    <span class="md-ellipsis">
+      7.1 核心是：关调度器、位操作、链表
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7.1 核心是：关调度器、位操作、链表">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#711" class="md-nav__link">
+    <span class="md-ellipsis">
+      7.1.1 怎么互斥访问数据
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#43" class="md-nav__link">
+  <a href="#712" class="md-nav__link">
     <span class="md-ellipsis">
-      4.3 状态切换
+      7.1.2 位操作
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#713" class="md-nav__link">
+    <span class="md-ellipsis">
+      7.1.3 链表
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#72" class="md-nav__link">
+    <span class="md-ellipsis">
+      7.2 示例代码
     </span>
   </a>
   
@@ -1162,9 +1684,117 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#5" class="md-nav__link">
+  <a href="#8-task-notification" class="md-nav__link">
     <span class="md-ellipsis">
-      5. 通过链表深入理解调度机制
+      8. 任务通知(Task Notification)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. 任务通知(Task Notification)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#81" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.1 核心: 通知状态、通知值
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8.1 核心: 通知状态、通知值">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#811" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.1.1 通知状态
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#812" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.1.2 通知值
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#82" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.2 代码分析
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. 定时器
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. 中断
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="10. 中断">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#101-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      10.1 两套API
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#102" class="md-nav__link">
+    <span class="md-ellipsis">
+      10.2 两类中断
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#103" class="md-nav__link">
+    <span class="md-ellipsis">
+      10.3 优先级
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11" class="md-nav__link">
+    <span class="md-ellipsis">
+      11. 临界资源访问方法
     </span>
   </a>
   
@@ -1186,12 +1816,28 @@
 
 
 
-<h1 id="20211030_freertos">20211030直播_中度掌握FreeRTOS</h1>
-<h2 id="1-rtos">1. RTOS的引入</h2>
-<h3 id="11-rtos">1.1 用人来类比单片机程序和RTOS</h3>
+<h1 id="freertos">FreeRTOS完全开发手册之内部机制</h1>
+<h2 id="_1">资料下载</h2>
+<p><img alt="image-20211211082918357" src="../pic/pre/04_download.png" /></p>
+<h2 id="_2">课程介绍</h2>
+<p>对于 FreeRTOS 的掌握可以分为 3 个层次：</p>
+<ul>
+<li>第 1 层：知道怎么使用相关 API 函数</li>
+<li>第 2 层：知道内部机制</li>
+<li>第 3 层：掌握代码实现的细节，能够移植</li>
+</ul>
+<p>百问网科技在嵌入式操作系统领域深耕 13 年，能够使用 2 天(每天 6 小时)让你达到第 2 层。
+这让你能够在日常开发中使用 FreeRTOS 并解决疑难问题。</p>
+<p>FreeRTOS的任务管理与调度、任务间通信(消息队列)、任务间同步(信号量/互斥量/事件集)的方法，核心都是：</p>
+<ul>
+<li>链表</li>
+</ul>
+<p>基于链表，可以快速而深入地理解FreeRTOS 。</p>
+<h2 id="1-rtos">1. RTOS 概念及任务的引入</h2>
+<h3 id="11-rtos">1.1 RTOS的概念</h3>
+<h4 id="111-rtos">1.1.1 用人来类比单片机程序和RTOS</h4>
 <p><img alt="" src="../pic/pre/01_mother_do_jobs.png" /></p>
 <p>妈妈要一边给小孩喂饭，一边加班跟同事微信交流，怎么办？</p>
-<h4 id="111">1.1.1 我无法一心多用</h4>
 <p>对于单线条的人，不能分心、不能同时做事，她只能这样做：</p>
 <ul>
 <li>给小孩喂一口饭</li>
@@ -1201,7 +1847,6 @@
 <li>如果回复同事的信息要写一大堆，小孩就着急得大哭起来。</li>
 </ul>
 <p>这种做法，在软件开发上就是一般的单片机开发，没有用操作系统。</p>
-<h4 id="122">1.2.2 我可以一心多用</h4>
 <p>对于眼明手快的人，她可以一心多用，她这样做：</p>
 <ul>
 <li>左手拿勺子，给小孩喂饭</li>
@@ -1215,7 +1860,7 @@
 <p>我们使用的Windows也是操作系统，被称为通用操作系统。使用Windows时，我们经常碰到程序卡死、停顿的现象，日常生活中这可以忍受。</p>
 <p>但是在电梯系统中，你按住开门键时如果没有即刻反应，即使只是慢个1秒，也会夹住人。</p>
 <p>在专用的电子设备中，“实时性”很重要。</p>
-<h3 id="12">1.2 程序简单示例</h3>
+<h4 id="112">1.1.2 程序简单示例</h4>
 <pre><code class="language-c">// 经典单片机程序
 void main()
 {
@@ -1227,16 +1872,22 @@ void main()
 }
 ------------------------------------------------------
 // RTOS程序    
-喂饭()
+int a;    
+喂饭() 栈A
 {
+    int b = 2;
+    int c;
+    c = b+2;==&gt; 1. b+2,  2. c = new val
+    ---------------&gt; 切换
     while (1)
     {
         喂一口饭();
     }
 }
 
-回信息()
+回信息()  栈B
 {
+    int b;
     while (1)
     {
         回一个信息();
@@ -1255,209 +1906,427 @@ void main()
 }
 </code></pre>
 <p><img alt="image-20210712065106008" src="../pic/pre/02_program_with_rtos.png" /></p>
-<h2 id="2">2. 任务的引入</h2>
-<h3 id="21">2.1 任务是什么</h3>
-<p>从这个角度想：函数被暂停时，我们怎么保存它、保存什么？怎么恢复它、恢复什么？</p>
+<h4 id="113">1.1.3 提出问题</h4>
+<p>什么叫任务？回答这个问题之前，先想想怎么切换任务？怎么保存任务？</p>
 <ul>
-<li>任务是一个函数吗？</li>
-<li>函数保存在Flash上</li>
-<li>Flash上的函数无需再次保存</li>
-<li>所以：任务不仅仅是函数</li>
-<li>任务时变量吗？</li>
-<li>单纯通过变量无法做事</li>
-<li>所以：任务不仅仅是变量</li>
-<li>任务时一个运行中的函数</li>
-<li>运行中：可以曾经运行，现在暂停了，但是未退出</li>
-<li>怎么描述一个运行中的函数</li>
-<li>假设在某一个瞬间时间停止，你怎么记录这个运行中的函数</li>
-<li>要立即任务的本质，需要理解ARM架构、汇编</li>
+<li>任务是函数吗？函数需要保存吗？函数在Flash上，不会被破坏，无需保存</li>
+<li>函数执行到了哪里？需要保存吗？需要保存</li>
+<li>函数里用到了全局变量，全局变量需要保存吗？全局变量在内存上，还能保存到哪里去？全局变量无需保存</li>
+<li>函数里用到了局部变量，局部变量需要保存吗？局部变量在栈里，也是在内存里，只要避免栈不被破坏即可，局部变量无需保存</li>
+<li>运算的中间值需要保存吗？中间值保存在哪里？在CPU寄存器里，另一个任务也要用到CPU寄存器，所以CPU寄存器需要保存</li>
+<li>函数运行了哪里：它也是一个CPU寄存器，名为"PC"</li>
+<li>汇总：CPU寄存器需要保存！</li>
+<li>保存在哪里？保存在任务的栈里</li>
+<li>怎么理解CPU寄存器、怎么理解栈？</li>
 </ul>
-<h3 id="22-c">2.2 理解C函数的内部机制</h3>
-<p>main函数的作用：</p>
+<h3 id="12-arm">1.2 ARM 架构及汇编</h3>
+<h4 id="121-arm">1.2.1 ARM架构</h4>
+<p>ARM芯片属于精简指令集计算机(RISC：Reduced Instruction Set Computor)，它所用的指令比较简单，有如下特点：</p>
+<p>① 对内存只有读、写指令</p>
+<p>② 对于数据的运算是在CPU内部实现</p>
+<p>③ 使用RISC指令的CPU复杂度小一点，易于设计</p>
+<p>比如对于a=a+b这样的算式，需要经过下面4个步骤才可以实现：</p>
+<p><img alt="image-20211211070259111" src="../pic/arm/01_cpu_ram.png" /></p>
+<p>细看这几个步骤，有些疑问：</p>
+<p>① 读a，那么a的值读出来后保存在CPU里面哪里？</p>
+<p>② 读b，那么b的值读出来后保存在CPU里面哪里？</p>
+<p>③ a+b的结果又保存在哪里？</p>
+<p>我们需要深入ARM处理器的内部。简单概括如下，我们先忽略各种CPU模式(系统模式、用户模式等等)。</p>
+<p><img alt="image-20211211070449003" src="../pic/arm/02_cpu_registers.png" /></p>
+<p>CPU运行时，先去取得指令，再执行指令：</p>
+<p>① 把内存a的值读入CPU寄存器R0</p>
+<p>② 把内存b的值读入CPU寄存器R1</p>
+<p>③ 把R0、R1累加，存入R0</p>
+<p>④ 把R0的值写入内存a</p>
+<p>CPU内部有r0到r15寄存器，这些寄存器有别名(下图来自<a href="https://wenku.baidu.com/view/2e9d9c7e941ea76e58fa04ef.html">百度文库</a>)：</p>
+<p><img alt="image-20211211072941967" src="../pic/arm/03_cpu_reg_names.png" /></p>
+<h4 id="122">1.2.2 几条汇编指令</h4>
+<p>需要我们掌握的汇编指令并不多，只有几条：</p>
 <ul>
-<li>调用add_val</li>
-<li>实现：a = a + b</li>
+<li>读内存指令：LDR，即Load之意</li>
+<li>写内存指令：STR，即Store之意</li>
+<li>加减指令：ADD、SUB</li>
+<li>跳转：BL，即Branch And Link</li>
+<li>入栈指令：PUSH</li>
+<li>出栈指令：POP</li>
 </ul>
-<p>分析add_val函数的内部实现，可以理解C函数的内部机制。</p>
-<pre><code class="language-c">/* a = a + b */
-void add_val(int *pa, int *pb)
+<p>视频演示。</p>
+<p>汇编并不复杂：</p>
+<blockquote>
+<p><strong>加载/存储指令(LDR/STR)</strong></p>
+<ul>
+<li>加载指令LDR： <code>LDR r0,[addrA]</code>  意思是将地址addrA的内容加载(存放)到r0里面</li>
+<li>存储指令STR： <code>STR r0,[addrA]</code>  意思是将r0中的值存储到地址addrA上</li>
+</ul>
+<p><strong>加法运算指令(ADD)</strong></p>
+<ul>
+<li>加法运算指令(ADD)： <code>ADD r0,r1,r2</code>  意思为：r0=r1+r2</li>
+<li>减法运算指令(SUB)： <code>SUB r0,r1,r2</code>  意思为：r0=r1-r2</li>
+</ul>
+<p><strong>寄存器入栈/出栈指令(PUSH/POP)</strong></p>
+<ul>
+<li>寄存器入栈(PUSH)： <code>PUSH {r3，lr}</code>  意思是将寄存器r3和pc写入内存栈</li>
+<li>本质是写内存STR指令，高标号寄存器写入高地址的栈里，低标号寄存器写入低地址的栈里</li>
+<li>lr即r14，写入地址为<code>sp-4</code>的内存，然后：sp=sp-4</li>
+<li>r3，写入地址为<code>sp-4</code>的内存，然后：sp=sp-4</li>
+<li>寄存器出栈指令(POP)： <code>POP {r3，pc}</code>  意思是取出内存栈的数据放入r3和pc中</li>
+<li>本质是读内存LDR指令，高标号寄存器的内容来自高地址的栈，低标号寄存器的内容来自低地址的栈</li>
+<li>读地址为<code>sp</code>的内存存入r3，然后：sp=sp+4</li>
+<li>读地址为<code>sp</code>的内存存入pc，然后：sp=sp+4
+</li>
+</ul>
+</blockquote>
+<h3 id="13">1.3 函数运行的本质</h3>
+<p>如下是一个简单的程序，在配套源码的<code>01_arm_stack</code>。</p>
+<p>主函数里调用函数<code>add_val()</code>：</p>
+<pre><code class="language-c">void add_val(int *pa, int *pb)
 {
-    //*pa = *pa + *pb;
-
     volatile int tmp;
 
     tmp = *pa;
     tmp = tmp + *pb;
     *pa = tmp;
-
 }
 
-int main( void )
+
+int main()
 {
     int a = 1;
     int b = 2;
 
     add_val(&amp;a, &amp;b);
-    return 0;   
+
+    return 0;
 }
 </code></pre>
-<h4 id="221-arm">2.2.1 ARM架构</h4>
-<p>ARM芯片属于精简指令集计算机(RISC：Reduced Instruction Set Computing)，它所用的指令比较简单，有如下特点：</p>
+<p>其中调用函数<code>add_val()</code>的汇编代码如下，我们加上了注释：</p>
+<pre><code class="language-c">1   /* enter */ 
+2   PUSH     {r3,lr}         //进入函数，寄存器r3、lr的值，都存入内存的栈中(lr保存程序返回地址)
+3  
+4   /* tmp = *pa; */ 
+5   LDR      r2,[r0,#0x00]   //将寄存器r0的值存放到r2，其中r0是函数的第一个参数值(ARM ATPCS规定)
+6   STR      r2,[sp,#0x00]   //将寄存器r2的值存储到sp指向的内存
+7 
+8   /* tmp = tmp + *pb;  */
+9   LDR      r2,[r1,#0x00]   //将寄存器r1的值存放到r2，其中r1是函数的第二个参数值(ARM ATPCS规定)
+10  LDR      r3,[sp,#0x00]   //将寄存器sp指向内存的值存放到r3
+11  ADD      r2,r2,r3        //将寄存器r2和r3相加，保存到r2
+12  STR      r2,[sp,#0x00]   //将寄存器r2的值存储到sp指向的内存 
+13 
+14  /* *pa = tmp; */ 
+15  LDR      r2,[sp,#0x00]   //将寄存器sp指向内存的值存放到r2
+16  STR      r2,[r0,#0x00]   //将寄存器r2的值存储到r0，其中r0将作为函数返回值(ARM ATPCS规定)
+17  
+18  /* quit */
+19  POP      {r3,pc}         //退出函数，获取内存的栈中的数据放入r3和pc中(此时pc为lr,实现了函数返回)
+</code></pre>
+<p>视频里动态演示，重点演示栈的使用。</p>
+<h3 id="14">1.4 什么叫任务？ 怎么保存任务？</h3>
+<p>现在可以回答这个问题了。</p>
+<p>什么叫任务：运行中的函数、被暂停运行的函数</p>
+<p>怎么保存任务：把暂停瞬间的CPU寄存器值，保存进栈里。</p>
+<p>视频里动态演示：在函数的某个位置，怎么保存当前环境？</p>
+<h2 id="2">2. 创建任务的函数</h2>
+<p><img alt="image-20220115073423273" src="../pic/task/01_task_create_example.png" /></p>
+<h3 id="21">2.1 参数解析</h3>
 <ul>
-<li>对内存只有读、写指令</li>
-<li>对于数据的运算是在CPU内部实现</li>
-<li>使用RISC指令的CPU复杂度小一点，易于设计</li>
+<li>任务做什么？需要提供函数</li>
+<li>任务随时会别切换，哪些寄存器保存在哪里？需要提供栈：可以实现分配(比如使用数组)，也可以动态分配</li>
+<li>怎么记录这些信息：栈在哪里？需要有一个任务结构体</li>
 </ul>
-<p>比如对于a=a+b这样的算式，需要经过下面4个步骤才可以实现：</p>
-<p><img alt="image-20211030125916114" src="../pic/arm/01_arm_architecture.png" /></p>
-<p>细看这几个步骤，有些疑问：</p>
+<h4 id="211">2.1.1 任务结构体</h4>
+<p>TCB_t用来表示一个任务，它的重要成员如下：</p>
 <ul>
-<li>读a，那么a的值读出来后保存在CPU里面哪里？</li>
-<li>读b，那么b的值读出来后保存在CPU里面哪里？</li>
-<li>a+b的结果又保存在哪里？</li>
+<li>pxTopOfStack：执行栈里的最后一个元素</li>
+<li>xStateListItem：通过它把当前任务放入某个状态链表(Ready, Blocked, Suspended)</li>
+<li>xEventListItem：比如任务在等待队列A，则通过xEventListItem把自己放入队列A的链表</li>
+<li>uxPriority：任务的原始优先级</li>
+<li>pxStack：栈的起始位置</li>
+<li>pxEndOfStack：栈顶，栈的最高的、有效地址</li>
+<li>uxBasePriority：任务的当前优先级</li>
 </ul>
-<p>我们需要深入ARM处理器的内部。简单概括如下，我们先忽略各种CPU模式(系统模式、用户模式等等)。</p>
-<p><img alt="image-20211030130038029" src="../pic/arm/02_arm_registers.png" /></p>
-<p>CPU运行时，先去Flash上取得指令，再执行指令：</p>
+<p>提问：在TCB_t里怎么没看到函数指针？初始化任务时，把函数指针存入了栈里。</p>
+<pre><code class="language-c">typedef struct tskTaskControlBlock       /* The old naming convention is used to prevent breaking kernel aware debuggers. */
+{
+    volatile StackType_t * pxTopOfStack; /*&lt; Points to the location of the last item placed on the tasks stack.  THIS MUST BE THE FIRST MEMBER OF THE TCB STRUCT. */
+
+    #if ( portUSING_MPU_WRAPPERS == 1 )
+        xMPU_SETTINGS xMPUSettings; /*&lt; The MPU settings are defined as part of the port layer.  THIS MUST BE THE SECOND MEMBER OF THE TCB STRUCT. */
+    #endif
+
+    ListItem_t xStateListItem;                  /*&lt; The list that the state list item of a task is reference from denotes the state of that task (Ready, Blocked, Suspended ). */
+    ListItem_t xEventListItem;                  /*&lt; Used to reference a task from an event list. */
+    UBaseType_t uxPriority;                     /*&lt; The priority of the task.  0 is the lowest priority. */
+    StackType_t * pxStack;                      /*&lt; Points to the start of the stack. */
+    char pcTaskName[ configMAX_TASK_NAME_LEN ]; /*&lt; Descriptive name given to the task when created.  Facilitates debugging only. */ /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+
+    #if ( ( portSTACK_GROWTH &gt; 0 ) || ( configRECORD_STACK_HIGH_ADDRESS == 1 ) )
+        StackType_t * pxEndOfStack; /*&lt; Points to the highest valid address for the stack. */
+    #endif
+
+    #if ( portCRITICAL_NESTING_IN_TCB == 1 )
+        UBaseType_t uxCriticalNesting; /*&lt; Holds the critical section nesting depth for ports that do not maintain their own count in the port layer. */
+    #endif
+
+    #if ( configUSE_TRACE_FACILITY == 1 )
+        UBaseType_t uxTCBNumber;  /*&lt; Stores a number that increments each time a TCB is created.  It allows debuggers to determine when a task has been deleted and then recreated. */
+        UBaseType_t uxTaskNumber; /*&lt; Stores a number specifically for use by third party trace code. */
+    #endif
+
+    #if ( configUSE_MUTEXES == 1 )
+        UBaseType_t uxBasePriority; /*&lt; The priority last assigned to the task - used by the priority inheritance mechanism. */
+        UBaseType_t uxMutexesHeld;
+    #endif
+
+    #if ( configUSE_APPLICATION_TASK_TAG == 1 )
+        TaskHookFunction_t pxTaskTag;
+    #endif
+
+    #if ( configNUM_THREAD_LOCAL_STORAGE_POINTERS &gt; 0 )
+        void * pvThreadLocalStoragePointers[ configNUM_THREAD_LOCAL_STORAGE_POINTERS ];
+    #endif
+
+    #if ( configGENERATE_RUN_TIME_STATS == 1 )
+        uint32_t ulRunTimeCounter; /*&lt; Stores the amount of time the task has spent in the Running state. */
+    #endif
+
+    #if ( configUSE_NEWLIB_REENTRANT == 1 )
+        /* Allocate a Newlib reent structure that is specific to this task.
+         * Note Newlib support has been included by popular demand, but is not
+         * used by the FreeRTOS maintainers themselves.  FreeRTOS is not
+         * responsible for resulting newlib operation.  User must be familiar with
+         * newlib and must provide system-wide implementations of the necessary
+         * stubs. Be warned that (at the time of writing) the current newlib design
+         * implements a system-wide malloc() that must be provided with locks.
+         *
+         * See the third party link http://www.nadler.com/embedded/newlibAndFreeRTOS.html
+         * for additional information. */
+        struct  _reent xNewLib_reent;
+    #endif
+
+    #if ( configUSE_TASK_NOTIFICATIONS == 1 )
+        volatile uint32_t ulNotifiedValue[ configTASK_NOTIFICATION_ARRAY_ENTRIES ];
+        volatile uint8_t ucNotifyState[ configTASK_NOTIFICATION_ARRAY_ENTRIES ];
+    #endif
+
+    /* See the comments in FreeRTOS.h with the definition of
+     * tskSTATIC_AND_DYNAMIC_ALLOCATION_POSSIBLE. */
+    #if ( tskSTATIC_AND_DYNAMIC_ALLOCATION_POSSIBLE != 0 ) /*lint !e731 !e9029 Macro has been consolidated for readability reasons. */
+        uint8_t ucStaticallyAllocated;                     /*&lt; Set to pdTRUE if the task is a statically allocated to ensure no attempt is made to free the memory. */
+    #endif
+
+    #if ( INCLUDE_xTaskAbortDelay == 1 )
+        uint8_t ucDelayAborted;
+    #endif
+
+    #if ( configUSE_POSIX_ERRNO == 1 )
+        int iTaskErrno;
+    #endif
+} tskTCB;
+</code></pre>
+<h3 id="22">2.2 创建任务的过程</h3>
+<p>创建任务的过程，就是构造栈的过程。</p>
+<p>函数调用关系如下：</p>
+<pre><code class="language-shell">xTaskCreate
+        // 1. 分配任务结构体
+        TCB_t * pxNewTCB;
+        pxNewTCB = ( TCB_t * ) pvPortMalloc( sizeof( TCB_t ) );
+
+        // 2. 分配栈
+        pxNewTCB-&gt;pxStack = ( StackType_t * ) pvPortMallocStack( ... );
+
+        // 3. 初始化任务栈，即构造TCB_t的内容
+        prvInitialiseNewTask
+            // 3.1 初始化优先级、队列等等
+            pxNewTCB-&gt;uxPriority = uxPriority;
+            vListInitialiseItem( &amp;( pxNewTCB-&gt;xStateListItem ) );
+            vListInitialiseItem( &amp;( pxNewTCB-&gt;xEventListItem ) );
+
+            // 3.2 初始化栈
+            pxNewTCB-&gt;pxTopOfStack = pxPortInitialiseStack(...)
+
+        // 4. 放入就绪链表
+        prvAddNewTaskToReadyList( pxNewTCB );
+</code></pre>
+<h2 id="3">3. 任务的调度机制(核心是链表)</h2>
+<h3 id="31">3.1 使用链表来管理任务</h3>
+<p>有很多任务都想运行，优先级各不相同，怎么管理它们？</p>
+<p><img alt="image-20220115074535364" src="../pic/task/02_freertos_task_list.png" /></p>
+<p>每个优先级，都有一个就绪链表：pxReadyTasksLists[优先级]，</p>
+<p>任务被创建时，要使用<code>prvAddNewTaskToReadyList()</code>来把它放入对应的就绪链表，调用过程为：</p>
+<pre><code class="language-c">xTaskCreate
+    prvAddNewTaskToReadyList
+        listINSERT_END( &amp;( pxReadyTasksLists[ ( pxTCB )-&gt;uxPriority ] ), &amp;( ( pxTCB )-&gt;xStateListItem ) );
+</code></pre>
+<h3 id="32">3.2 使用链表来理解调度机制</h3>
+<h4 id="321-1">3.2.1 第1个任务是谁？</h4>
+<p>最高优先级的ready list里最后一个创建的任务：</p>
+<p><img alt="image-20220115075019776" src="../pic/task/03_freertos_first_task.png" /></p>
+<h4 id="322">3.2.2 抢占</h4>
+<p>最高优先级的ready list里的第1个任务永远可以即刻执行：</p>
+<p><img alt="image-20220115075511170" src="../pic/task/04_freertos_get_highest_task.png" /></p>
+<h3 id="33-tick">3.3 使用链表和Tick来理解时间片轮转</h3>
+<p>FreeRTOS的任务轮转时：每个任务运行一个Tick。</p>
+<h3 id="35-tick">3.5 任务状态的切换(链表+Tick)</h3>
+<p>参考程序：<code>FreeRTOS_06_taskdelay</code></p>
+<h4 id="351">3.5.1 任务状态切换图</h4>
+<p><img alt="" src="../pic/task/13_full_task_state_machine.png" /></p>
+<h4 id="352">3.5.2 核心：链表</h4>
+<h2 id="4-queue">4. 消息队列(queue)</h2>
+<p><img alt="" src="../pic/queue/02_queue.png" /></p>
+<h3 id="41">4.1 核心是：关中断、环形缓冲区、链表</h3>
+<h4 id="411">4.1.1 怎么互斥访问数据</h4>
+<p>简单粗暴：关中断</p>
+<p>示例：<code>FreeRTOS_08_queue</code></p>
+<p><img alt="image-20220115080857803" src="../pic/queue/04_enter_critical.png" /></p>
+<h4 id="412">4.1.2 怎么传递数据</h4>
+<p>使用环形缓冲区传递数据。</p>
+<p>视频里讲解。</p>
+<h4 id="413">4.1.3 怎么休眠/唤醒</h4>
+<p>有两个链表：</p>
 <ul>
-<li>把内存a的值读入CPU寄存器R0</li>
-<li>把内存b的值读入CPU寄存器R1</li>
-<li>把R0、R1累加，存入R0</li>
-<li>把R0的值写入内存a</li>
+<li>写队列不成功而挂起</li>
+<li>读队列不成功而挂起</li>
 </ul>
-<p>怎么理解Flash上的指令？看下一节。</p>
-<h4 id="222">2.2.2 汇编指令</h4>
-<p>本直播只需要记住5条汇编指令：</p>
+<p><img alt="image-20220115081434247" src="../pic/queue/05_queue_list.png" /></p>
+<h3 id="42">4.2 操作示例</h3>
+<p>参考程序：<code>FreeRTOS_08_queue</code></p>
+<h4 id="421">4.2.1 写队列</h4>
+<p>调用过程：</p>
+<pre><code class="language-c">xQueueSendToBack
+    xQueueGenericSend
+        /* 如果不成功: */
+        vTaskPlaceOnEventList( &amp;( pxQueue-&gt;xTasksWaitingToSend ), xTicksToWait );
+            // 1. 当前任务记录在队列的链表里:  pxQueue-&gt;xTasksWaitingToSend
+            vListInsert( pxEventList, &amp;( pxCurrentTCB-&gt;xEventListItem ) );
+
+            // 2. 把当前任务从ready list放到delayed list
+            prvAddCurrentTaskToDelayedList( xTicksToWait, pdTRUE );
+</code></pre>
+<p>一个任务写队列时，如果队列已经满了，它会被挂起，何时被唤醒？</p>
 <ul>
-<li>读内存：Load，LDR</li>
-<li>写内存：Store，STR</li>
-<li>加法：ADD</li>
-<li>入栈：PUSH，实质上就是写内存STR</li>
-<li>出栈：POP，实质上就是读内存LDR</li>
+<li>超时：</li>
+<li>任务写队列不成功时，它会被挂起：从ready list移到delayed list中</li>
+<li>在delayed list中，按照"超时时间"排序</li>
+<li>
+<p>系统Tick中断不断发生，在Tick中断里判断delayed list中的任务时间到没？时间到后就唤醒它
+    <img alt="image-20220115083023870" src="../pic/task/14_queue_timeout.png" /></p>
+</li>
+<li>
+<p>别的任务读队列:
+  <img alt="image-20220115083303252" src="../pic/task/15_wakeup_task_for_queue.png" /></p>
+</li>
 </ul>
-<p>要读内存：读内存哪个地址？读到的数据保存在哪里？读多少字节？</p>
+<h2 id="5-semaphore">5. 信号量(semaphore)</h2>
+<p><img alt="" src="../pic/semaphore/01_semaphore_usage.png" /></p>
+<p>信号量就是特殊的队列。</p>
+<p>队列里使用环形缓冲区存放数据，</p>
+<p>信号量里只记录计数值。</p>
+<h2 id="6-mutex">6. 互斥量(mutex)</h2>
+<p><img alt="image-20220115084012905" src="../pic/mutex/01_mutex_example.png" /></p>
+<p>互斥量就是特殊的队列。</p>
+<p>互斥量更是特殊的信号量，</p>
+<p>互斥量实现了优先级继承。</p>
+<h2 id="7-event-group">7. 事件组(event group)</h2>
+<p>示例程序：<code>FreeRTOS_20_event_group_wait_multi_events</code></p>
+<p>学校组织秋游，组长在等待：</p>
 <ul>
-<li>LDR R0, [R1, #0x00]</li>
-<li>源地址：R1+0x00，注意：不是读R1，是把R1的值当做内存的地址</li>
-<li>目的：R0，CPU的寄存器</li>
-<li>长度：4字节，LDR指令就是读4字节，LDRH是读2字节，LDRB是读1字节</li>
+<li>张三：我到了</li>
+<li>李四：我到了</li>
+<li>王五：我到了</li>
+<li>组长说：好，大家都到齐了，出发！</li>
 </ul>
-<p>要写内存：写内存哪个地址？从哪里得到数据？写多少字节？</p>
+<p>秋游回来第二天就要提交一篇心得报告，组长在焦急等待：张三、李四、王五谁先写好就交谁的。</p>
+<p>在这个日常生活场景中：</p>
 <ul>
-<li>STR R0, [R1, #0x00]</li>
-<li>目的地址：R1+0x00，注意：不是写R1，是把R1的值当做内存的地址</li>
-<li>源：R0，CPU的寄存器</li>
-<li>长度：4字节，STR指令就是读4字节，STRH是读2字节，STRB是读1字节</li>
+<li>出发：要等待这3个人都到齐，他们是"与"的关系</li>
+<li>交报告：只需等待这3人中的任何一个，他们是"或"的关系</li>
 </ul>
-<p>入栈：把CPU的寄存器的值，写到内存上</p>
+<p>在FreeRTOS中，可以使用事件组(event group)来解决这些问题。</p>
+<p><img alt="image-20220115084249887" src="../pic/evnet_group/01_event_group_example.png" /></p>
+<h3 id="71">7.1 核心是：关调度器、位操作、链表</h3>
+<p><img alt="image-20220115084647032" src="../pic/evnet_group/02_event_group_struct.png" /></p>
+<h4 id="711">7.1.1 怎么互斥访问数据</h4>
+<p>简单粗暴：关调度器</p>
+<p>示例：<code>FreeRTOS_20_event_group_wait_multi_events</code></p>
+<p><img alt="image-20220115084828616" src="../pic/evnet_group/03_event_group_suspendall.png" /></p>
+<h4 id="712">7.1.2 位操作</h4>
 <ul>
 <li>
-<p>PUSH {R3, LR}</p>
+<p>设置位：
+  <img alt="image-20220115130744356" src="../pic/evnet_group/04_set_bits.png" /></p>
 </li>
 <li>
-<p>源：CPU的寄存器R3、LR的值</p>
+<p>等待位
+  <img alt="image-20220115130955806" src="../pic/evnet_group/05_wait_bits.png" /></p>
 </li>
-<li>目的：内存，内存哪里？使用CPU的SP寄存器指定内存地址</li>
-<li>长度：大括号里所有寄存器的数据长度，每个寄存器4字节</li>
-<li>注意：低编号的寄存器，保存在内存的低地址处</li>
-<li>执行结果如下
-    <img alt="image-20211030132140142" src="../pic/arm/03_push.png" /></li>
 </ul>
-<p>出栈：把内存中的数值，写到CPU的寄存器</p>
+<h4 id="713">7.1.3 链表</h4>
 <ul>
-<li>POP {R3, PC}</li>
-<li>源：内存，内存哪里？使用CPU的SP寄存器指定内存地址</li>
-<li>目的：CPU的寄存器R3、PC的值</li>
-<li>长度：大括号里所有寄存器的数据长度，每个寄存器4字节</li>
-<li>注意：内存的低地址处的数据，写到CPU低编号的寄存器</li>
-<li>执行结果如下
-    <img alt="image-20211030132119565" src="../pic/arm/04_pop.png" /></li>
+<li>设置位后，会唤醒"所有符合条件"的任务
+  <img alt="image-20220115133147523" src="../pic/evnet_group/06_wakeup_task_for_event_group.png" /></li>
+<li>等待位的时候，条件不满足则会休眠
+  <img alt="image-20220115132918706" src="../pic/evnet_group/07_block_for_event_group.png" /></li>
 </ul>
-<p>其他知识：</p>
+<h3 id="72">7.2 示例代码</h3>
+<p>示例程序：<code>FreeRTOS_20_event_group_wait_multi_events</code></p>
+<h2 id="8-task-notification">8. 任务通知(Task Notification)</h2>
+<p>示例程序：<code>FreeRTOS_23_tasknotify_tansfer_value</code></p>
+<p><img alt="image-20220115133310665" src="../pic/tasknotification/01_block.png" /></p>
+<p>使用队列、信号量、互斥量、事件组等机制时，步骤都是这样的：</p>
 <ul>
-<li>CPU内部有R0、R1、……、R15共16个寄存器</li>
-<li>某些寄存器有特殊作用</li>
-<li>R13，别名SP，栈寄存器，保存着栈的地址</li>
-<li>R14，别名LR，返回地址，保存着函数的返回地址</li>
-<li>R15，别名PC，程序计数器，也就是当期程序运行到哪了</li>
+<li>创建对象</li>
+<li>写/Give</li>
+<li>读/Take</li>
 </ul>
-<h4 id="223">2.2.3 运行流程分析</h4>
-<p><img alt="image-20211030133425977" src="../pic/arm/05_asm.png" /></p>
-<h3 id="23">2.3 怎么保存函数的现场</h3>
-<p><img alt="image-20211030133612292" src="../pic/arm/06_how_to_save_env.png" /></p>
-<h4 id="231">2.3.1 要保存什么</h4>
+<p>对于任务通知，不需要"创建对象"，因为要操作的对象就在TCB里：</p>
+<p><img alt="image-20220115133807283" src="../pic/tasknotification/02_tasknotify_in_tcb.png" /></p>
+<h3 id="81">8.1 核心: 通知状态、通知值</h3>
+<h4 id="811">8.1.1 通知状态</h4>
+<p>一个任务的"通知状态"有三种：</p>
 <ul>
-<li>
-<p>程序运行到了哪里？PC寄存器的值</p>
-</li>
-<li>
-<p>R2的值：我辛辛苦苦从内存里读到的值放在R2里，函数继续运行时，R2的值不要被破坏了</p>
-</li>
-<li>
-<p>只需要保存R2吗？切换任务的话，所有的寄存器都要保存</p>
-</li>
-<li>
-<p>保存在哪里？内存里! 内存哪里？栈里！</p>
-</li>
+<li>taskNOT_WAITING_NOTIFICATION：任务没有在等待通知</li>
+<li>taskWAITING_NOTIFICATION：任务在等待通知</li>
+<li>taskNOTIFICATION_RECEIVED：任务接收到了通知，也被称为 pending(有数据了，待处理)  </li>
 </ul>
-<h4 id="232">2.3.2 保存现场的几种场景</h4>
+<p>一个任务想等待别人发来通知，可以调用<code>ulTaskNotifyTake</code>或<code>xTaskNotifyWait</code>：</p>
 <ul>
-<li>
-<p>函数调用</p>
-</li>
-<li>
-<p>中断处理</p>
-</li>
-<li>
-<p>任务切换</p>
-</li>
+<li>可能别人早就发来通知："通知状态"为taskNOTIFICATION_RECEIVED，那么函数立刻返回</li>
+<li>可能别人还没发来通知：这些函数把"通知状态"从taskNOT_WAITING_NOTIFICATION改为taskWAITING_NOTIFICATION，然后休眠</li>
 </ul>
-<h2 id="3-freertos">3. FreeRTOS中怎么创建任务</h2>
-<h3 id="31">3.1 所需参数</h3>
-<h3 id="32">3.2 参数详解</h3>
+<p>别的任务可以使用<code>xTaskNotifyGive</code>或<code>xTaskNotify</code>给某个任务发通知：</p>
 <ul>
-<li>分配了TCB结构体</li>
-<li>分配了栈</li>
-<li>在栈里写入了函数地址、参数</li>
+<li>会马上唤醒对方</li>
+<li>无条件唤醒对方，不管对方期待什么数据</li>
 </ul>
-<h2 id="4">4. 调度机制概述</h2>
-<h3 id="41">4.1 优先级与状态</h3>
+<h4 id="812">8.1.2 通知值</h4>
+<p>只是一个整数，调用<code>xTaskNotifyGive</code>或<code>xTaskNotify</code>时，传入不同的参数，可以去设置这个数值：</p>
 <ul>
-<li>优先级不同</li>
-<li>高优先级的任务，优先执行，可以抢占低优先级的任务</li>
-<li>高优先级的任务不停止，低优先级的任务永远无法执行</li>
-<li>同等优先级的任务，轮流执行：时间片轮转</li>
-<li>状态</li>
-<li>运行态：running</li>
-<li>就绪态：ready</li>
-<li>阻塞：blocked，等待某件事(时间、事件)</li>
-<li>暂停：suspend，休息去了</li>
-<li>怎么管理？</li>
-<li>怎么取出要运行的任务？<ul>
-<li>找到最高优先级的运行态、就绪态任务，运行它</li>
-<li>如果大家平级，轮流执行：排队，链表前面的先运行，运行1个tick后乖乖地去链表尾部排队</li>
+<li>不改变它的数值，只想唤醒任务</li>
+<li>增加1</li>
+<li>设置为某个数</li>
 </ul>
-</li>
-</ul>
-<h3 id="42">4.2 调度方法</h3>
-<ul>
-<li>谁进行调度？</li>
-<li>TICK中断！</li>
-</ul>
-<h3 id="43">4.3 状态切换</h3>
-<p><img alt="image-20211030145735013" src="../pic/arm/07_taskdelay.png" /></p>
-<h2 id="5">5. 通过链表深入理解调度机制</h2>
-<ul>
-<li>
-<p>可抢占：高优先级的任务先运行</p>
-</li>
-<li>
-<p>时间片轮转：同优先级的任务轮流执行</p>
-</li>
-<li>
-<p>空闲任务礼让：如果有同是优先级0的其他就绪任务，空闲任务主动放弃一次运行机会</p>
-</li>
-</ul>
+<h3 id="82">8.2 代码分析</h3>
+<h2 id="9">9. 定时器</h2>
+<h2 id="10">10. 中断</h2>
+<h3 id="101-api">10.1 两套API</h3>
+<h3 id="102">10.2 两类中断</h3>
+<h3 id="103">10.3 优先级</h3>
+<h2 id="11">11. 临界资源访问方法</h2>
+<pre><code class="language-c">taskENTER_CRITICAL();
+
+/* 可以避免其他任务、ISR来破坏 */
+
+taskEXIT_CRITICAL();
+
+-----------------------------------------
+
+vTaskSuspendAll();
+
+/* 可以避免其他任务来破坏 */
+
+( void ) xTaskResumeAll();
+</code></pre>
 
 
 
